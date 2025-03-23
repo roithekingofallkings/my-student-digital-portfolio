@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .AboutMe {
+    position: absolute;
+    top: 200px;
+    left: 400px;
+    animation: fadeIn 2s;
+  }
+
+  .firstpage {
+    position: absolute;
+    left: 80px;
+    top: 35px;
+    text-decoration: none;
+    padding: 5px 5px;
+    color: silver;
+    overflow: hidden;
+    background-color: grey;
+    padding: 5px 5px;
+    border-radius: 10%;
+    animation: fadeIn 5s;
+  }
+
+  .firstpage:hover {
+    background-color: #ffffff44;
+  }
+
+  .whyme {
+    position: absolute;
+    right: 110px;
+    top: 35px;
+    text-decoration: none;
+    padding: 5px 5px;
+    color: silver;
+    overflow: hidden;
+    background-color: grey;
+    padding: 5px 5px;
+    border-radius: 10%;
+    animation: fadeIn 5s;
+  }
+
+  .whyme:hover {
+    background-color: #ffffff44;
+  }
+
+  .Details {
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    inline-size: 500px;
+    font-weight: lighter;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    animation: fadeIn 5s;
+  }
+
+  .background {
+    width: 600px;
+    position: relative;
+    top: 100px;
+    left: 880px;
+    animation: nav-load 3s;
+  }
+
+  body {
+    background-image: url("magazine plain.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: silver;
+  }

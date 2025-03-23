@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jamero Portfolio Webpage</title>
+    <link rel="stylesheet" href="animation.css" />
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .des1 {
+      position: absolute;
+      top: 90px;
+      left: 800px;
+      animation: fadeIn 2s;
+    }
+
+    .des2 {
+      position: absolute;
+      top: 650px;
+      left: 60px;
+      inline-size: 500px;
+      animation: fadeIn 3s;
+    }
+
+    .des3 {
+      position: absolute;
+      top: 650px;
+      left: 750px;
+      inline-size: 500px;
+      animation: fadeIn 4s;
+    }
+
+    .des4 {
+      position: absolute;
+      top: 650px;
+      left: 1170px;
+      inline-size: 500px;
+      animation: fadeIn 5s;
+    }
+
+    .container {
+      position: relative;
+      width: 27%;
+      margin-top: 100px;
+    }
+
+    .game1 {
+      position: relative;
+      width: 500px;
+      height: 300px;
+      top: 200px;
+      left: 50px;
+      animation: fadeIn2 5s;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 200px;
+      left: 50px;
+      background-color: grey;
+      overflow: hidden;
+      width: 0;
+      height: 100%;
+      transition: 0.5s ease;
+    }
+
+    .container:hover .overlay {
+      width: 100%;
+    }
+
+    .text {
+      white-space: nowrap;
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      overflow: hidden;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+
+    .container2 {
+      position: relative;
+      width: 27%;
+    }
+
+    .game2 {
+      position: relative;
+      width: 500px;
+      height: 300px;
+      bottom: 100px;
+      left: 600px;
+      animation: fadeIn2 8s;
+    }
+
+    .overlay2 {
+      position: absolute;
+      bottom: 100px;
+      left: 600px;
+      background-color: grey;
+      overflow: hidden;
+      width: 0;
+      height: 100%;
+      transition: 0.5s ease;
+    }
+
+    .container2:hover .overlay2 {
+      width: 100%;
+    }
+
+    .text2 {
+      white-space: nowrap;
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      overflow: hidden;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+
+    .container3 {
+      position: relative;
+      width: 27%;
+    }
+
+    .video1 {
+      position: relative;
+      width: 500px;
+      height: 300px;
+      bottom: 400px;
+      left: 1150px;
+      animation: fadeIn2 10s;
+    }
+
+    .overlay3 {
+      position: absolute;
+      bottom: 400px;
+      left: 1150px;
+      background-color: grey;
+      overflow: hidden;
+      width: 0;
+      height: 100%;
+      transition: 0.5s ease;
+    }
+
+    .container3:hover .overlay3 {
+      width: 100%;
+    }
+
+    .text3 {
+      white-space: nowrap;
+      color: white;
+      font-size: 20px;
+      position: absolute;
+      overflow: hidden;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+
+    .firstpage {
+      position: absolute;
+      left: 80px;
+      top: 35px;
+      text-decoration: none;
+      padding: 5px 5px;
+      color: silver;
+      overflow: hidden;
+      background-color: grey;
+      padding: 5px 5px;
+      border-radius: 10%;
+      animation: fadeIn 2s;
+    }
+
+    .firstpage:hover {
+      background-color: #ffffff44;
+    }
+
+    .contacts {
+      position: absolute;
+      right: 80px;
+      top: 35px;
+      text-decoration: none;
+      padding: 5px 5px;
+      color: silver;
+      overflow: hidden;
+      background-color: grey;
+      padding: 5px 5px;
+      border-radius: 10%;
+      animation: fadeIn 2s;
+    }
+
+    .contacts:hover {
+      background-color: #ffffff44;
+    }
+
+    body {
+      background-image: url("magazine plain.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      color: silver;
+    }
+  </style>
+  <body>
+    <a class="firstpage" href="/index.html">Back</a>
+    <a class="contacts" href="contacts.html">Contacts</a>
+
+    <h1 class="des1">Achievements</h1>
+    <p class="des2">
+      This here is one of my games that I've made. Made with Unity. The theme is
+      medieval and its an exploration game.
+    </p>
+    <p class="des3">More screenshots of my game.</p>
+    <p class="des4">
+      I've also done some video editing. This is one of my projects. Its a
+      project about showcasing my everyday life and turn it into a music video.
+    </p>
+
+    <div class="container">
+      <img class="game1" src="game 1.jpg" alt="One of my Unity game" />
+      <div class="overlay">
+        <div class="text">My First Unity Game</div>
+      </div>
+    </div>
+    <div class="container2">
+      <img
+        class="game2"
+        src="paint 2.jpg"
+        alt="Another screenshot of my Game"
+      />
+      <div class="overlay2">
+        <div class="text2">More Screenshots of my game</div>
+      </div>
+    </div>
+
+    <div class="container3">
+      <img class="video1" src="video 1.png" alt="One of my edited videos" />
+      <div class="overlay3">
+        <div class="text3">One of my video editing</div>
+      </div>
+    </div>
+  </body>
+</html>
